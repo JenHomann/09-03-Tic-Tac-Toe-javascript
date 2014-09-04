@@ -12,7 +12,7 @@ window.onload = function(){
 	  else {
 		  this.innerHTML = "O";
 		  this.setAttribute("data-marked", "true")
-	  }
+    }
   }
   
   function increment_count() {
@@ -22,9 +22,9 @@ window.onload = function(){
   for(var i = 0; i < squares.length; i++) {
     // When you click a square, runs the `add_mark` method.
     squares[i].addEventListener("click", add_mark);
-	squares[i].addEventListener("click", increment_count);
-	squares[i].addEventListener("click", isWinningGame);
-	squares[i].addEventListener("click", isCatsGame);
+	  squares[i].addEventListener("click", increment_count);
+	  squares[i].addEventListener("click", isWinningGame);
+	  squares[i].addEventListener("click", isCatsGame);
   }
   
   function isCatsGame(){
