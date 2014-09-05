@@ -1,7 +1,7 @@
 window.onload = function(){
   
   // Collection of all squares on the board.
-  var squares = document.getElementsByTagName('td');
+  var squares = $("td");
   var count = 0;
   
   function add_mark(){
